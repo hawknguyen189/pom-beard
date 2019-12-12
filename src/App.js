@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Example from "./Component/foo";
-
+import Navigation from "./Container/navigation"
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <Navigation/> */}
       <Example/>
     </div>
   );
