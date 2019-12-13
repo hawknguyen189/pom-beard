@@ -8,8 +8,7 @@ const Navigation = () => {
             <h2>Menu</h2>
           </header>
         </nav>
-
-        <main id="panel">
+       <main id="panel">
           <header>
             <h2>Panel</h2>
           </header>
