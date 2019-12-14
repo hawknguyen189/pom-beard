@@ -3,13 +3,17 @@ import "./Background.css";
 
 const Background = props => {
   return (
-    <div className={props.class}>
+    <div className={props.class} data-interval={props.sliderData.intervalTime}>
       <div className="main-background w-100 d-flex">
-        <div className="d-flex justify-content-around align-items-center p-5 w-100">
-          <p>asdaskjdaskldjkladjkladkakadl</p>
-          <div className="slider-content w-100"></div>
+        <div className="d-flex justify-content-between align-items-center p-4 w-100 container">
+          <div class="header-content">
+            <h4 class="header-title text-left">{props.sliderData.title}</h4>
+            <h1 class="header-heading">{props.sliderData.heading}</h1>
+            <span class="header-caption text-left">{props.sliderData.caption}</span>
+          </div>
+          <div className="slider-content"></div>
           <img
-            class="w-100"
+            class="w-75"
             src={require("../../media/" + props.sliderData.url)}
             alt=""
           />

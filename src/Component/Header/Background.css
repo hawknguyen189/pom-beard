@@ -2,16 +2,19 @@
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-image: url(../../media/main-background.jpg);
+  background-image: url(../../media/main-background.png);
   /* border-color: #f8f9fa; */
   background-size: cover;
-  /* background-position: initial; */
+  /* background-position: left top; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  width: auto;
-  align-items: center;
+  /* width: auto; */
+  /* align-items: center; */
   margin-bottom: 0;
+}
+.header-title{
+  color:rgb(142, 179, 90);
 }
 .carousel-caption{
   color:orangered;
@@ -23,4 +26,7 @@
 .pomegranate{
   color:#c51618;
   background-color:#c51618;
+}
+.header-content{
+  font-family: 'Playfair Display', serif;
 }
