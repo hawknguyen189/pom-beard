@@ -29,7 +29,7 @@ const HeaderContent = () => {
         {/* carousel indicator */}
 
         <a
-          class="carousel-control-prev"
+          class="carousel-control-prev carousel-arrow"
           href="#headerCarousel"
           role="button"
           data-slide="prev"
@@ -41,7 +41,7 @@ const HeaderContent = () => {
           <span class="sr-only">Previous</span>
         </a>
         <a
-          class="carousel-control-next"
+          class="carousel-control-next carousel-arrow"
           href="#headerCarousel"
           role="button"
           data-slide="next"
