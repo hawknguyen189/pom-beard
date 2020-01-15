@@ -27,31 +27,32 @@ const HeaderContent = () => {
           })}
         </div>
         {/* carousel indicator */}
-
-        <a
-          class="carousel-control-prev carousel-arrow"
-          href="#headerCarousel"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon pomegranate"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next carousel-arrow"
-          href="#headerCarousel"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon pomegranate"
-            aria-hidden="true"
-          ></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="arrow-control-carousel">
+          <a
+            class="carousel-control-prev carousel-arrow"
+            href="#headerCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon pomegranate"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next carousel-arrow"
+            href="#headerCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon pomegranate"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
   );

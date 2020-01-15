@@ -29,4 +29,12 @@
 }
 .header-content{
   font-family: 'Playfair Display', serif;
+  line-height: 2em;
+}
+.text-content{
+  font-family: 'Playfair Display', serif;
+  line-height: 2em;
+}
+.container-fluid{
+  background-color:#f8f7f7;
 }

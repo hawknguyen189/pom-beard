@@ -1,20 +1,9 @@
 import React from "react";
-
+import Navbar from "../Component/Navigation/Navbar"
 const Navigation = () => {
     return (
-      <div>
-        <nav id="menu">
-          <header>
-            <h2>Menu</h2>
-          </header>
-        </nav>
-       <main id="panel">
-          <header>
-            <h2>Panel</h2>
-          </header>
-        </main>
-      </div>
-    );
+      <Navbar/>
+    )
 }
 
 export default Navigation;
