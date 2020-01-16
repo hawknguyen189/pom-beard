@@ -35,6 +35,12 @@
   font-family: 'Playfair Display', serif;
   line-height: 2em;
 }
-.container-fluid{
-  background-color:#f8f7f7;
+.jumbotron{
+  margin-bottom: 0;
+}
+.light-grey{
+  background-color: #f8f7f7 ;
+}
+.navbar-brand{
+  font-family: "Playfair Display";
 }

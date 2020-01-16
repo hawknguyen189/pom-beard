@@ -6,6 +6,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#">
         <img src={brandLogo} alt="brand-logo" width="30" height="30" />
+        <span>PomBeard</span>
       </a>
       <button
         class="navbar-toggler"
