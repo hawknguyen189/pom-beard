@@ -3,7 +3,7 @@ import brandLogo from "../../media/pom-beard-logo.png"
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#">
         <img src={brandLogo} alt="brand-logo" width="30" height="30" />
       </a>
