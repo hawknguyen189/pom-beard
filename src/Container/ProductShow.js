@@ -4,10 +4,10 @@ import FrontPageProducts from "../Component/Deals/FrontPageProducts";
 
 const ProductShow = () => {
   return (
-    <div className="StoreProducts">
+    <section className="StoreProducts">
       <Deals />
       <FrontPageProducts />
-    </div>
+    </section>
   );
 };
 

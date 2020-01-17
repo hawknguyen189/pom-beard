@@ -3,10 +3,10 @@ import BusinessDescription from "../Component/BusinessDescription/BusinessDescri
 import BusinessVision from "../Component/BusinessDescription/BusinessVision";
 const Introduction = () => {
   return (
-    <div className="introduction light-grey">
+    <section className="introduction light-grey">
       <BusinessVision />
       <BusinessDescription />
-    </div>
+    </section>
   );
 };
 
