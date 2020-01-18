@@ -1,10 +1,10 @@
 import React from "react";
-import Deals from "../Component/Deals/Deals";
-import FrontPageProducts from "../Component/Deals/FrontPageProducts";
+import Deals from "../Component/ProductStore/Deals";
+import FrontPageProducts from "../Component/ProductStore/FrontPageProducts";
 
 const ProductShow = () => {
   return (
-    <section className="StoreProducts">
+    <section className="store-products container-fluid">
       <Deals />
       <FrontPageProducts />
     </section>

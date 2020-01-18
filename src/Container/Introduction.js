@@ -3,7 +3,7 @@ import BusinessDescription from "../Component/BusinessDescription/BusinessDescri
 import BusinessVision from "../Component/BusinessDescription/BusinessVision";
 const Introduction = () => {
   return (
-    <section className="introduction light-grey">
+    <section className="container-fluid introduction light-grey">
       <BusinessVision />
       <BusinessDescription />
     </section>

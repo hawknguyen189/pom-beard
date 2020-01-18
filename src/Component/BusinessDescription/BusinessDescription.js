@@ -6,8 +6,8 @@ import IntroductionWhat from "../../media/what.png";
 const BusinessDescription = () => {
   return (
     <section class="container-fluid">
-      <div className="introduction d-flex justify-content-center pt-5 pb-5">
-        <div className="who col-sm-3 text-center">
+      <div className="introduction row justify-content-center pt-5 pb-5">
+        <div className="who col-sm-3 text-center pb-3">
           <img src={IntroductionWho} alt="" />
           <h6 className="text-content">
             Understanding the sometimes harmful methods of modern agriculture,
@@ -17,7 +17,7 @@ const BusinessDescription = () => {
             Learn more
           </a>
         </div>
-        <div className="how col-sm-3 text-center">
+        <div className="how col-sm-3 text-center pb-3">
           <img src={IntroductionHow} alt="" />
           <h6 className="text-content">
             We believe it’s the best way to inspire our community to relish in
@@ -27,7 +27,7 @@ const BusinessDescription = () => {
             Learn more
           </a>
         </div>
-        <div className="what col-sm-3 text-center">
+        <div className="what col-sm-3 text-center pb-3">
           <img src={IntroductionWhat} alt="" />
           <h6 className="text-content">
             We take special care to select and grow specific crop varieties
