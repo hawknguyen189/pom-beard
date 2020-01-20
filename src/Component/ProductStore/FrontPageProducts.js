@@ -2,10 +2,9 @@ import React from "react";
 
 const FrontPageProducts = () => {
   return (
-    <div>
-      <li></li>
-      <li></li>
-      <li></li>
+    <div className="container">
+      <div class="product-filter"></div>
+      <div class="product-detail"></div>
     </div>
   );
 };
