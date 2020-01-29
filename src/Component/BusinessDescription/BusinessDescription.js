@@ -5,7 +5,7 @@ import IntroductionWhat from "../../media/what.png";
 
 const BusinessDescription = () => {
   return (
-    <section class="container-fluid">
+    <section className="container-fluid">
       <div className="introduction row justify-content-center pt-5 pb-5">
         <div className="who col-sm-3 text-center pb-3">
           <img src={IntroductionWho} alt="" />

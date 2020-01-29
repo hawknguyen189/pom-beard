@@ -6,12 +6,12 @@ let className = "";
 const HeaderContent = () => {
   return (
     <div className="header-sliding-show jumbotron p-0">
-      <div id="headerCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators pomegranate">
+      <div id="headerCarousel" className="carousel slide" data-ride="carousel">
+        <ol className="carousel-indicators pomegranate">
           <li
             data-target="#headerCarousel"
             data-slide-to="0"
-            class="active"
+            className="active"
           ></li>
           <li data-target="#headerCarousel" data-slide-to="1"></li>
           <li data-target="#headerCarousel" data-slide-to="2"></li>
@@ -23,34 +23,34 @@ const HeaderContent = () => {
             } else {
               className = "carousel-item";
             }
-            return <Background class={className} sliderData={value} />;
+            return <Background className={className} sliderData={value} />;
           })}
         </div>
         {/* carousel indicator */}
-        <div class="arrow-control-carousel">
+        <div className="arrow-control-carousel">
           <a
-            class="carousel-control-prev carousel-arrow"
+            className="carousel-control-prev carousel-arrow"
             href="#headerCarousel"
             role="button"
             data-slide="prev"
           >
             <span
-              class="carousel-control-prev-icon pomegranate"
+              className="carousel-control-prev-icon pomegranate"
               aria-hidden="true"
             ></span>
-            <span class="sr-only">Previous</span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next carousel-arrow"
+            className="carousel-control-next carousel-arrow"
             href="#headerCarousel"
             role="button"
             data-slide="next"
           >
             <span
-              class="carousel-control-next-icon pomegranate"
+              className="carousel-control-next-icon pomegranate"
               aria-hidden="true"
             ></span>
-            <span class="sr-only">Next</span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
       </div>
