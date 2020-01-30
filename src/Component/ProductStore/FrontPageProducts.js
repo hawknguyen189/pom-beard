@@ -1,13 +1,29 @@
 import React from "react";
 import products from "./ProductsData";
+import { StoreContext } from "../CommonUse/StoreContext";
 
 const FrontPageProducts = () => {
-  const context = React.useContext(ContextStore);
+  const [tag, setTag] = React.useContext(StoreContext);
+  let filteredProducts;
+  if (tag.includes("all")) {
+    filteredProducts = [...products];
+  } else {
+    filteredProducts = products.filter(product => {
+      let showProduct = false;
+      for (let i = 0; i < tag.length; i++) {
+        if (product.tag.includes(tag[i])) {
+          showProduct = true;
+          console.log(tag[i])
+          break;
+        }
+      }
+      return showProduct === true;
+    });
+  }
   return (
     <div className="container mt-3">
-      <div></div>
       <div className="row product-shelf">
-        {products.map(product => {
+        {filteredProducts.map(product => {
           const productLink = product.productName
             .toLowerCase()
             .replace(/ /g, "-");
@@ -29,7 +45,10 @@ const FrontPageProducts = () => {
                   <a href={"#" + productLink} className=" text-center">
                     <p>{product.productName}</p>
                   </a>
-                  <p className="text-center">{product.productPrice}</p>
+                  <p className="text-center">
+                    <span>£</span>
+                    {product.productPrice}
+                  </p>
                 </div>
               </div>
             </div>

@@ -21,7 +21,7 @@ const products = [
     productName: "Beetroot Juice",
     productPrice: 12,
     status: "",
-    tag: ["juice", "fruit"]
+    tag: ["fruit","juice" ]
   },
   {
     productName: "Dried Apricot",
@@ -39,7 +39,7 @@ const products = [
     productName: "Sweet Corn",
     productPrice: 9,
     status: "",
-    tag: ["processedFood", "vegie"]
+    tag: ["vegie"]
   },
   {
     productName: "Pomegranate",

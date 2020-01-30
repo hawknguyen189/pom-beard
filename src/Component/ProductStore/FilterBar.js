@@ -1,27 +1,16 @@
-import React, { useState, createContext } from "react";
+import React, { useState } from "react";
 import FilterButton from "../CommonUse/FilterButton";
 import FrontPageProducts from "./FrontPageProducts";
-const ContextStore = createContext();
+import { StoreContextProvider } from "../CommonUse/StoreContext";
+
 const FilterBar = () => {
-  const [tag, setTag] = useState("all");
-  const handleFilterButton = event => {
-    // event.persist(); //without this the event will return only null, this is for react performance purpose
-    const filterData = event.target.dataset.filterValue;
-    console.log(filterData);
-    setTag(filterData);
-    console.log("this is useState ", tag);
-  };
-  const store = {
-    tag: [tag, setTag]
-  };
-  
   return (
-    <ContextStore.Provider value={store}>
+    <StoreContextProvider>
       <div>
-        <FilterButton handleClick={handleFilterButton} />
+        <FilterButton />
         <FrontPageProducts />
       </div>
-    </ContextStore.Provider>
+    </StoreContextProvider>
   );
 };
 export default FilterBar;
