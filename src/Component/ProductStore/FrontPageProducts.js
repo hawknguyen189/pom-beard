@@ -13,7 +13,6 @@ const FrontPageProducts = () => {
       for (let i = 0; i < tag.length; i++) {
         if (product.tag.includes(tag[i])) {
           showProduct = true;
-          console.log(tag[i])
           break;
         }
       }
