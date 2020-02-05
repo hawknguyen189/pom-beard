@@ -6,7 +6,7 @@ const FrontPageProducts = () => {
   const [tag, setTag] = React.useContext(StoreContext);
   let filteredProducts;
   if (tag.includes("all")) {
-    filteredProducts = [...products];
+    filteredProducts = [...products]; //copy products array
   } else {
     filteredProducts = products.filter(product => {
       let showProduct = false;
