@@ -1,8 +1,52 @@
-.delivery-background{
-    // display: flex;
-    // background-image: url(../../media/delivery-background.png);
-    // background-repeat: no-repeat;
-    // height: 100vh;
-    // width: 100%;
-    // background-position: center bottom;
+.delivery-background {
+  // display: flex;
+  // background-image: url(../../media/delivery-background.png);
+  // background-repeat: no-repeat;
+  // height: 100vh;
+  // width: 100%;
+  // background-position: center bottom;
+}
+.process-panel {
+  
+//   background-color: #8eb359;
+}
+.process-visual:hover{
+    .process-icon{
+        animation: animation-spinner 4s linear infinite;
+    }
+}
+.process-logo {
+  font-weight: 900;
+  font-size: 4em;
+  color: #8eb359;
+}
+.step-1, .step-4{
+margin-top: 13em;
+}
+
+.process-icon {
+  background-image: url(../../media/icons/process-spinner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 13em;
+  width: 13em;
+  display: block;
+  position: absolute;
+  left: 40px;
+  top: -70px;
+  opacity: 0.5;
+  z-index: -1000;
+  /* Other styles here */
+}
+.animation-spinner{
+    animation: animation-spinner 4s linear infinite;
+}
+@keyframes animation-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

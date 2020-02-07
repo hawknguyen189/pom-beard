@@ -5,13 +5,12 @@ import DeliveryProcess from "../Component/Delivery/DeliveryProcess";
 
 const Delivery = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className="row">
         <SectionTitle title="Delivery Process" desc="How To Get Delivered" />
       </div>
-      <DeliveryProcess/>
       <DeliveryBackground/>
-    </div>
+    </section>
   );
 };
 export default Delivery;
