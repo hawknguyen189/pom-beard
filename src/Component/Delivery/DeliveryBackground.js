@@ -42,7 +42,7 @@ const DeliveryBackground = () => {
       <img
         src={require("../../media/delivery-background.png")}
         alt=""
-        className="img-fluid mx-auto d-block"
+        className="process-img img-fluid mx-auto d-block"
       />
     </div>
   );

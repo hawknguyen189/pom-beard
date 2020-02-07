@@ -1,12 +1,19 @@
+.process-visual {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px; }
+
 .process-visual:hover .process-icon {
   animation: animation-spinner 4s linear infinite; }
 
 .process-logo {
   font-weight: 900;
   font-size: 4em;
-  color: #8eb359; }
+  color: #8eb359;
+  width: auto; }
 
-.step-1, .step-4 {
+.step-1,
+.step-4 {
   margin-top: 13em; }
 
 .process-icon {
@@ -32,5 +39,8 @@
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+@media (min-width: 769px) {
+  .process-img {
+    margin-top: -200px; } }
 
 /*# sourceMappingURL=DeliveryBackground.css.map */

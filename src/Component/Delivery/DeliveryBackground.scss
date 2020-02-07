@@ -6,22 +6,31 @@
   // width: 100%;
   // background-position: center bottom;
 }
-.process-panel {
-  
-//   background-color: #8eb359;
+.process-visual {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  //   background-color: #8eb359;
 }
-.process-visual:hover{
-    .process-icon{
-        animation: animation-spinner 4s linear infinite;
-    }
+.process-visual:hover {
+  .process-icon {
+    animation: animation-spinner 4s linear infinite;
+  }
+//   .process-logo{
+//       color: snow;
+//       background-color: #8eb359;
+//       border-radius: 100%;
+//   }
 }
 .process-logo {
   font-weight: 900;
   font-size: 4em;
   color: #8eb359;
+  width: auto;
 }
-.step-1, .step-4{
-margin-top: 13em;
+.step-1,
+.step-4 {
+  margin-top: 13em;
 }
 
 .process-icon {
@@ -39,8 +48,8 @@ margin-top: 13em;
   z-index: -1000;
   /* Other styles here */
 }
-.animation-spinner{
-    animation: animation-spinner 4s linear infinite;
+.animation-spinner {
+  animation: animation-spinner 4s linear infinite;
 }
 @keyframes animation-spinner {
   0% {
@@ -48,5 +57,10 @@ margin-top: 13em;
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@media (min-width: 769px) {
+  .process-img {
+    margin-top: -200px;
   }
 }
