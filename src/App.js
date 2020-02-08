@@ -7,6 +7,7 @@ import Navigation from "./Container/Navigation";
 import Introduction from "./Container/Introduction";
 import ProductShow from "./Container/ProductShow";
 import Delivery from "./Container/Delivery";
+import Testimonials from "./Container/Testimonials";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Introduction />
         <ProductShow />
         <Delivery />
+        <Testimonials />
       </main>
     </div>
   );

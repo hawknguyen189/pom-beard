@@ -7,14 +7,22 @@ const HeaderContent = () => {
   return (
     <div className="header-sliding-show jumbotron p-0">
       <div id="headerCarousel" className="carousel slide" data-ride="carousel">
-        <ol className="carousel-indicators pomegranate">
+        <ol className="carousel-indicators">
           <li
             data-target="#headerCarousel"
             data-slide-to="0"
-            className="active"
+            className="active carousel-indicator"
           ></li>
-          <li data-target="#headerCarousel" data-slide-to="1"></li>
-          <li data-target="#headerCarousel" data-slide-to="2"></li>
+          <li
+            data-target="#headerCarousel"
+            data-slide-to="1"
+            className="carousel-indicator"
+          ></li>
+          <li
+            data-target="#headerCarousel"
+            data-slide-to="2"
+            className="carousel-indicator"
+          ></li>
         </ol>
         <div className="carousel-inner">
           {SlidingProducts.map((value, index) => {
@@ -23,7 +31,7 @@ const HeaderContent = () => {
             } else {
               className = "carousel-item";
             }
-            return <Background className={className} sliderData={value} />;
+            return <Background className={className} sliderData={value} key={index}/>;
           })}
         </div>
         {/* carousel indicator */}
