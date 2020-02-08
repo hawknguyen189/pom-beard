@@ -15,7 +15,7 @@ const DeliveryBackground = () => {
           }}
         />
         <DeliveryProcess
-          processIcon="fas fa-vote-yea process-logo"
+          processIcon="fas fa-warehouse process-logo"
           processStep="step-2"
           processContent={{
             step: "Step 2",
@@ -23,7 +23,7 @@ const DeliveryBackground = () => {
           }}
         />
         <DeliveryProcess
-          processIcon="fas fa-vote-yea process-logo"
+          processIcon="   fas fa-map-marked-alt process-logo"
           processStep="step-3"
           processContent={{
             step: "Step 3",
@@ -31,7 +31,7 @@ const DeliveryBackground = () => {
           }}
         />
         <DeliveryProcess
-          processIcon="fas fa-vote-yea process-logo"
+          processIcon="fas fa-truck process-logo"
           processStep="step-4"
           processContent={{
             step: "Step 4",

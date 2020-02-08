@@ -41,6 +41,7 @@ const Testimonials = () => {
                 author={value.author}
                 className={value.className}
                 AIphoto={`AI-generated-${1 + index}.jpg`}
+                stars={value.stars}
                 key={index}
               />
             );
