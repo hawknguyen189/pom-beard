@@ -1,7 +1,7 @@
 .process-visual {
   margin: 0 auto;
   width: 120px;
-  height: 120px; }
+  height: 120px !important; }
 
 .process-visual:hover .process-icon {
   animation: animation-spinner 4s linear infinite; }
@@ -12,24 +12,28 @@
   color: #8eb359;
   width: auto; }
 
-.step-1,
-.step-4 {
-  margin-top: 13em; }
-
 .process-icon {
-  background-image: url(../../media/icons/process-spinner.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   height: 13em;
   width: 13em;
-  display: block;
-  position: absolute;
-  left: 40px;
+  left: -42px;
   top: -70px;
   opacity: 0.5;
   z-index: -1000;
   /* Other styles here */ }
+
+.process-title-font {
+  font-family: "Alata", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700; }
+
+.process-description-font {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1em;
+  font-size: 0.9em;
+  color: #696969; }
 
 .animation-spinner {
   animation: animation-spinner 4s linear infinite; }
@@ -41,6 +45,10 @@
     transform: rotate(360deg); } }
 @media (min-width: 769px) {
   .process-img {
-    margin-top: -200px; } }
+    margin-top: -170px; }
+
+  .step-1,
+  .step-4 {
+    margin-top: 12em; } }
 
 /*# sourceMappingURL=DeliveryBackground.css.map */

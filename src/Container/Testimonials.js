@@ -5,7 +5,7 @@ import TestimonialData from "../Component/Testimonial/TestinomialData";
 
 const Testimonials = () => {
   return (
-    <section className="container mt-5">
+    <section className="container mt-5 mb-5">
       <div
         id="testimonialCarousel"
         className="carousel slide"
