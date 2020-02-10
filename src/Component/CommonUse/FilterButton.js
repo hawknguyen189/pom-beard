@@ -3,6 +3,7 @@ import "./FilterButton.css";
 import { StoreContext } from "./StoreContext";
 
 const FilterButton = props => {
+  // eslint-disable-next-line no-unused-vars
   const [tag, setTag] = React.useContext(StoreContext);
   const handleFilterButton = event => {
     // event.persist(); //without this the event will return only null, this is for react performance purpose

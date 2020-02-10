@@ -3,6 +3,7 @@ import products from "./ProductsData";
 import { StoreContext } from "../CommonUse/StoreContext";
 
 const FrontPageProducts = () => {
+  // eslint-disable-next-line no-unused-vars
   const [tag, setTag] = React.useContext(StoreContext);
   let filteredProducts;
   if (tag.includes("all")) {
@@ -22,12 +23,12 @@ const FrontPageProducts = () => {
   return (
     <div className="container mt-3">
       <div className="row product-shelf">
-        {filteredProducts.map(product => {
+        {filteredProducts.map((product,index) => {
           const productLink = product.productName
             .toLowerCase()
             .replace(/ /g, "-");
           return (
-            <div className="col-sm-3 pr-2 pl-2 pb-2 pt-2">
+            <div className="col-sm-3 pr-2 pl-2 pb-2 pt-2" key={index}>
               <div className="card">
                 <div className="product-thumb ">
                   <a href={"#" + productLink} className=" text-center">
