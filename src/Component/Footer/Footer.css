@@ -4,7 +4,9 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
-  font-size: 0.9em; }
+  font-size: 1em; }
+  .contact-div p a {
+    color: #8eb359; }
 .contact-div .contact-icon {
   width: 20px; }
 .contact-div .contact-network a {
@@ -15,5 +17,14 @@
 .contact-div .contact-network .network-bg {
   width: 40px;
   height: 40px; }
+
+.contact-info .footer-header {
+  font-family: "Playfair Display", serif;
+  font-size: 1.1em;
+  color: #333;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.05em; }
 
 /*# sourceMappingURL=Footer.css.map */

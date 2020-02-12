@@ -6,7 +6,10 @@
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0em;
-    font-size: 0.9em;
+    font-size: 1em;
+    a {
+      color: $main-green-text;
+    }
   }
   .contact-icon {
     width: 20px;
@@ -15,13 +18,25 @@
     a {
       color: $gray-text;
     }
-    a:hover{
-        color:snow;
-        background-color: $main-green-text;
+    a:hover {
+      color: snow;
+      background-color: $main-green-text;
     }
-    .network-bg{
-        width: 40px;
-        height: 40px;
+    .network-bg {
+      width: 40px;
+      height: 40px;
     }
+  }
+}
+
+.contact-info {
+  .footer-header {
+    font-family: $font-display;
+    font-size: 1.1em;
+    color: $brown-text;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
   }
 }
