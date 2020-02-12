@@ -1,20 +1,25 @@
 import React from "react";
+import "./BlogPosts.css";
+import { truncate } from "../CommonUse/Utils";
 
 const BlogPosts = props => {
   return (
-    <div className="row">
-      <div className="col-sm main-blog">
-        <img
-          className="img-fluid"
-          src={require(`../../media/blogs/${props.blogdata.imgURL}`)}
-          alt="entry display"
-        />
-        <p>{props.blogdata.publishedDate}</p>
-        <h4>{props.blogdata.title}</h4>
-        <p className="blog-content">{props.blogdata.content}</p>
-        <a href="#">/ READ MORE</a>
+    <div className={props.className}>
+      <img
+        className={`${props.imgClass}`}
+        src={require(`../../media/blogs/${props.blogdata.imgURL}`)}
+        alt="entry display"
+      />
+      <div className={props.contentClass}>
+        <p className="blog-date">{props.blogdata.publishedDate}</p>
+        <a href="">
+          <h4 className="blog-title">{props.blogdata.title}</h4>
+        </a>
+        <p className="blog-content">
+          {truncate.apply(props.blogdata.content, [48, true])}
+        </p>
+        <a className="blog-more" href="#">/ READ MORE</a>
       </div>
-      <div className="col-sm side-blog"></div>
     </div>
   );
 };
