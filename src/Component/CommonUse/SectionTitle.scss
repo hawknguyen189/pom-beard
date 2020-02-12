@@ -1,12 +1,17 @@
+@import "../helpers/FontMaster";
 .section-title {
-  h4 {
-    color: #8eb359;
-  }
-}
-.section-title {
-  font-family: "Alata", sans-seri;
+  font-family: $font-alata;
   letter-spacing: 0.2em;
   position: relative;
+  .sub-title {
+    font-family: $font-display;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    line-height: 1.2;
+    font-style: italic;
+    color: $main-green-text;
+  }
 }
 
 .section-title::before {

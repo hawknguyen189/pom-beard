@@ -1,0 +1,27 @@
+@import "../helpers/FontMaster";
+.contact-div {
+  p {
+    color: $gray-text;
+    font-family: $font-alata;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    font-size: 0.9em;
+  }
+  .contact-icon {
+    width: 20px;
+  }
+  .contact-network {
+    a {
+      color: $gray-text;
+    }
+    a:hover{
+        color:snow;
+        background-color: $main-green-text;
+    }
+    .network-bg{
+        width: 40px;
+        height: 40px;
+    }
+  }
+}

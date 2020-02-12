@@ -1,28 +1,30 @@
+@import "../helpers/FontMaster";
 .blog-date {
-  font-family: "Playfair Display", serif;
+  font-family: $font-display;
   font-style: italic;
   //   letter-spacing: 0.1em;
   font-size: 0.9em;
-  color: #aaa;
+  color: $light-gray-text;
 }
 .blog-title {
-  font-family: "Playfair Display", serif;
+  font-family: $font-display;
   // font-size: 1.5em;
   font-weight: 700;
   font-style: normal;
   line-height: 1.5;
+  color:black;
 }
 .blog-content {
-  font-family: "Alata", sans-serif;
+  font-family: $font-alata;
   letter-spacing: 0.1em;
   font-size: 0.9em;
-  color: #696969;
+  color: $gray-text;
   font-weight: 400;
 }
 .blog-more {
-  font-family: "Alata", sans-serif;
+  font-family: $font-alata;
 //   letter-spacing: 0.1em;
   font-size: 0.9em;
-  color: #696969;
+  color: $gray-text;
   font-weight: 400;
 }

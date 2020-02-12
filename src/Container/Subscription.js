@@ -1,6 +1,4 @@
 import React from "react";
-import SectionTitle from "../Component/CommonUse/SectionTitle";
-import "../Component/CommonUse/Utils.css";
 
 const Subscription = () => {
   return (
@@ -13,22 +11,22 @@ const Subscription = () => {
           <div className="col-sm-8">
             <form>
               <div className="row">
-                <div class="form-group col-sm-9">
+                <div className="form-group col-sm-9">
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="subscribeEmail"
                     aria-describedby="emailHelp"
                     placeholder="Enter your e-mail"
                   ></input>
                 </div>
                 <div className="col-sm-3">
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </div>
               </div>
-              <small id="emailHelp" class="form-text text-muted">
+              <small id="emailHelp" className="form-text text-muted">
                 We'll never share your email with anyone else.
               </small>
             </form>
