@@ -9,6 +9,7 @@ import ProductShow from "./Container/ProductShow";
 import Delivery from "./Container/Delivery";
 import Testimonials from "./Container/Testimonials";
 import Blog from "./Container/Blog";
+import Subscription from "./Container/Subscription";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
         <Delivery />
         <Testimonials />
         <Blog />
+        <Subscription/>
       </main>
     </div>
   );

@@ -1,0 +1,42 @@
+import React from "react";
+import SectionTitle from "../Component/CommonUse/SectionTitle";
+import "../Component/CommonUse/Utils.css";
+
+const Subscription = () => {
+  return (
+    <section className="container-fluid subscription-bg mb-5">
+      <div className="container pt-5 pb-5">
+        <div className="row pt-4 pb-4">
+          <div className="col-sm-4 subscribe-header">
+            Subscribe To Our Newsletter
+          </div>
+          <div className="col-sm-8">
+            <form>
+              <div className="row">
+                <div class="form-group col-sm-9">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="subscribeEmail"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter your e-mail"
+                  ></input>
+                </div>
+                <div className="col-sm-3">
+                  <button type="submit" class="btn btn-primary">
+                    Submit
+                  </button>
+                </div>
+              </div>
+              <small id="emailHelp" class="form-text text-muted">
+                We'll never share your email with anyone else.
+              </small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Subscription;
