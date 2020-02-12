@@ -34,33 +34,6 @@ const HeaderContent = () => {
             return <Background className={className} sliderData={value} key={index}/>;
           })}
         </div>
-        {/* carousel indicator */}
-        <div className="arrow-control-carousel">
-          <a
-            className="carousel-control-prev carousel-arrow"
-            href="#headerCarousel"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon pomegranate"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a
-            className="carousel-control-next carousel-arrow"
-            href="#headerCarousel"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon pomegranate"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
       </div>
     </div>
   );

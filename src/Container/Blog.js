@@ -18,15 +18,15 @@ const Blog = () => {
         desc="-Keep updated with us-"
       ></SectionTitle>
       <div className="row">
-        <div className="col-sm main-blog pr-5">
+        <div className="col-sm main-blog pr-sm-5">
           <BlogPosts
             blogdata={mainBlog[0]}
-            className="row"
+            className=""
             contentClass="mt-3"
-            imgClass="img-fluid"
+            imgClass="img-fluid rounded"
           ></BlogPosts>
         </div>
-        <div className="col-sm side-blog pl-5">
+        <div className="col-sm side-blog pl-sm-5">
           {sideBlog.map((value, index) => {
             return (
               <BlogPosts
