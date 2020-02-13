@@ -29,14 +29,39 @@
   }
 }
 
-.contact-info {
-  .footer-header {
-    font-family: $font-display;
-    font-size: 1.1em;
-    color: $brown-text;
-    font-weight: 700;
+.footer-header {
+  font-family: $font-display;
+  font-size: 1.1em;
+  color: $brown-text;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.insight-list {
+  a {
+    font-family: $font-alata;
+    color: $gray-text;
+    font-weight: 400;
     font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+    letter-spacing: 0em;
+    position: relative;
+    transition: all 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+  a:hover {
+    padding-left: 20px;
+    color:$main-green-text;
+  }
+  a:hover::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+    position: absolute;
+    left: 0;
   }
 }

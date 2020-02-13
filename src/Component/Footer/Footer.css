@@ -18,7 +18,7 @@
   width: 40px;
   height: 40px; }
 
-.contact-info .footer-header {
+.footer-header {
   font-family: "Playfair Display", serif;
   font-size: 1.1em;
   color: #333;
@@ -26,5 +26,27 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.05em; }
+
+.insight-list a {
+  font-family: "Alata", sans-serif;
+  color: #696969;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  position: relative;
+  transition: all 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s; }
+.insight-list a:hover {
+  padding-left: 20px;
+  color: #8eb359; }
+.insight-list a:hover::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0da";
+  position: absolute;
+  left: 0; }
 
 /*# sourceMappingURL=Footer.css.map */
