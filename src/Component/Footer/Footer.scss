@@ -65,3 +65,18 @@
     left: 0;
   }
 }
+.copyright-content{
+  font-family: $font-display;
+  font-size: 0.9em;
+  font-style: italic;
+  color:$light-gray-text;
+}
+.policy-content{
+  a{
+    text-transform: uppercase;
+    font-family: $font-alata;
+    font-style: normal;
+    font-size: 0.8em;
+    color: $gray-text;
+  }
+}

@@ -49,4 +49,17 @@
   position: absolute;
   left: 0; }
 
+.copyright-content {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9em;
+  font-style: italic;
+  color: #aaa; }
+
+.policy-content a {
+  text-transform: uppercase;
+  font-family: "Alata", sans-serif;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #696969; }
+
 /*# sourceMappingURL=Footer.css.map */
