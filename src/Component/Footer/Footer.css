@@ -34,11 +34,7 @@
   font-style: normal;
   letter-spacing: 0em;
   position: relative;
-  transition: all 0.5s;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-delay: 0s; }
+  transition: all 0.5s; }
 .insight-list a:hover {
   padding-left: 20px;
   color: #8eb359; }
@@ -61,5 +57,3 @@
   font-style: normal;
   font-size: 0.8em;
   color: #696969; }
-
-/*# sourceMappingURL=Footer.css.map */

@@ -1,4 +1,4 @@
-.product-price {
+.deal-of-the-day .product-price {
   width: 6em;
   height: 6em;
   background-color: #8eb359;
@@ -7,22 +7,17 @@
   font-style: italic;
   font-size: 1.5em;
   color: white !important;
-  letter-spacing: 0.2em;
-}
-.deal-product-name {
+  letter-spacing: 0.2em; }
+.deal-of-the-day .deal-product-name {
   color: #8eb359;
   font-style: italic;
-  letter-spacing: 0.2em;
-}
-.deal-product-header {
-  letter-spacing: 0.1em;
-}
-.main-font {
-  font-family: "Playfair Display", serif;
-}
-.add-to-cart{
-    font-weight: 500;
-}
+  letter-spacing: 0.2em; }
+.deal-of-the-day .deal-product-header {
+  letter-spacing: 0.1em; }
+.deal-of-the-day .main-font {
+  font-family: "Playfair Display", serif; }
+.deal-of-the-day .add-to-cart {
+  font-weight: 500; }
 
 .deal-background {
   display: -webkit-flex;
@@ -36,5 +31,20 @@
   /* height: 100vh; */
   /* width: auto; */
   /* align-items: center; */
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
+
+.product-shelf .product-lot :hover .product-name {
+  color: #8eb359; }
+.product-shelf .product-lot .product-desc a {
+  font-size: 1.2em;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.05em;
+  color: #333;
+  font-weight: 700;
+  transition: all 0.2s; }
+.product-shelf .product-lot .product-desc .product-price {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 0.9em;
+  font-weight: 700;
+  color: #696969; }
