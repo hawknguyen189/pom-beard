@@ -4,7 +4,7 @@ import DeliveryBackground from "../Component/Delivery/DeliveryBackground";
 
 const Delivery = () => {
   return (
-    <section className="container mt-5 mb-5 pb-5">
+    <section id="sectionDelivery" className="container mt-5 mb-5 pb-5">
       <div className="row">
         <SectionTitle title="Delivery Process" desc="How To Get Delivered" />
       </div>

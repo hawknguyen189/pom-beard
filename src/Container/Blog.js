@@ -12,7 +12,8 @@ sideBlog = BlogData.filter(element => {
 });
 const Blog = () => {
   return (
-    <section className="container mt-5 mb-5">
+    // start off blog section
+    <section id="blogSection" className="container mt-5 mb-5">
       <SectionTitle
         title="FROM OUR BLOG"
         desc="-Keep updated with us-"

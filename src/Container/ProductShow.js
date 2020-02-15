@@ -5,7 +5,7 @@ import FilterBar from "../Component/ProductStore/FilterBar";
 
 const ProductShow = () => {
   return (
-    <section className="store-products container-fluid mb-5">
+    <section id="sectionProduct" className="store-products container-fluid mb-5">
       <Deals />
       <SectionTitle title="OUR PRODUCTS" desc="-Featured Products-" />
       <FilterBar />

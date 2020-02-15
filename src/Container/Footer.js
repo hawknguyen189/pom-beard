@@ -9,7 +9,7 @@ import "../Component/Footer/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="container mt-5 mb-5">
+      <div id="footer" className="container mt-5 mb-5">
         <div className="row">
           <Contact></Contact>
           <StoreInsight></StoreInsight>

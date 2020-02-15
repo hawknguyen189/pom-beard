@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscription = () => {
   return (
-    <section className="container-fluid subscription-bg mb-5">
+    <section id="sectionSubscription" className="container-fluid subscription-bg mb-5">
       <div className="container pt-5 pb-5">
         <div className="row pt-4 pb-4">
           <div className="col-sm-4 subscribe-header">

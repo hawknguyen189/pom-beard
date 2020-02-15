@@ -1,8 +1,9 @@
 import React from "react";
-
-const NavItem = () => {
+let addDivider = "dropdown-divider";
+const NavItem = props => {
   return (
-    <li className="nav-item dropdown">
+    <li className={`nav-item dropdown ${props.className}`}>
+      {/*  eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         className="nav-link dropdown-toggle"
         href="#"
@@ -12,19 +13,22 @@ const NavItem = () => {
         aria-haspopup="true"
         aria-expanded="false"
       >
-        Dropdown
+        {props.navMenu}
       </a>
       <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a className="dropdown-item" href="#">
-          Action
-        </a>
-        <a className="dropdown-item" href="#">
-          Another action
-        </a>
-        <div className="dropdown-divider"></div>
-        <a className="dropdown-item" href="#">
-          Something else here
-        </a>
+        {props.navList.map((value, index) => {
+          if (index === props.navList.length - 1) {
+            addDivider = "";
+          }
+          return (
+            <div className="sub-nav">
+              <a className="dropdown-item" href="#">
+                {value}
+              </a>
+              <div className={addDivider}></div>
+            </div>
+          );
+        })}
       </div>
     </li>
   );

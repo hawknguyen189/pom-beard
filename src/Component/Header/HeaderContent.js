@@ -5,7 +5,7 @@ import SlidingProducts from "./SlidingShowData";
 let className = "";
 const HeaderContent = () => {
   return (
-    <div className="header-sliding-show jumbotron p-0">
+    <div id="header" className="header-sliding-show jumbotron p-0">
       <div id="headerCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li
