@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pom-beard/static/css/main.44120a7d.chunk.css",
-    "main.js": "/pom-beard/static/js/main.936a564a.chunk.js",
-    "main.js.map": "/pom-beard/static/js/main.936a564a.chunk.js.map",
+    "main.js": "/pom-beard/static/js/main.6d80e0b2.chunk.js",
+    "main.js.map": "/pom-beard/static/js/main.6d80e0b2.chunk.js.map",
     "runtime-main.js": "/pom-beard/static/js/runtime-main.b630f30d.js",
     "runtime-main.js.map": "/pom-beard/static/js/runtime-main.b630f30d.js.map",
     "static/js/2.b8b5afce.chunk.js": "/pom-beard/static/js/2.b8b5afce.chunk.js",
     "static/js/2.b8b5afce.chunk.js.map": "/pom-beard/static/js/2.b8b5afce.chunk.js.map",
     "index.html": "/pom-beard/index.html",
-    "precache-manifest.2cc2310e9dda2a784a4f2ead693eee22.js": "/pom-beard/precache-manifest.2cc2310e9dda2a784a4f2ead693eee22.js",
+    "precache-manifest.6c5ddb483a84404d669d72b3900a6c70.js": "/pom-beard/precache-manifest.6c5ddb483a84404d669d72b3900a6c70.js",
     "service-worker.js": "/pom-beard/service-worker.js",
     "static/css/main.44120a7d.chunk.css.map": "/pom-beard/static/css/main.44120a7d.chunk.css.map",
     "static/js/2.b8b5afce.chunk.js.LICENSE": "/pom-beard/static/js/2.b8b5afce.chunk.js.LICENSE",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.b630f30d.js",
     "static/js/2.b8b5afce.chunk.js",
     "static/css/main.44120a7d.chunk.css",
-    "static/js/main.936a564a.chunk.js"
+    "static/js/main.6d80e0b2.chunk.js"
   ]
 }

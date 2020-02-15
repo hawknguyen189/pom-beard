@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad67b889eac7af1fd316d4a1fc0bb657",
+    "revision": "da39713d74f153db5f5ce435f44bb685",
     "url": "/pom-beard/index.html"
   },
   {
-    "revision": "496df0feed7deab95a0c",
+    "revision": "fff93846334c33d01be3",
     "url": "/pom-beard/static/css/main.44120a7d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pom-beard/static/js/2.b8b5afce.chunk.js.LICENSE"
   },
   {
-    "revision": "496df0feed7deab95a0c",
-    "url": "/pom-beard/static/js/main.936a564a.chunk.js"
+    "revision": "fff93846334c33d01be3",
+    "url": "/pom-beard/static/js/main.6d80e0b2.chunk.js"
   },
   {
     "revision": "6d99b93c7e1b4eda195d",
