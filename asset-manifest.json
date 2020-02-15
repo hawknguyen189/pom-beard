@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pom-beard/static/css/main.44120a7d.chunk.css",
-    "main.js": "/pom-beard/static/js/main.6d80e0b2.chunk.js",
-    "main.js.map": "/pom-beard/static/js/main.6d80e0b2.chunk.js.map",
+    "main.css": "/pom-beard/static/css/main.a2f272dc.chunk.css",
+    "main.js": "/pom-beard/static/js/main.8e969ab1.chunk.js",
+    "main.js.map": "/pom-beard/static/js/main.8e969ab1.chunk.js.map",
     "runtime-main.js": "/pom-beard/static/js/runtime-main.b630f30d.js",
     "runtime-main.js.map": "/pom-beard/static/js/runtime-main.b630f30d.js.map",
     "static/js/2.b8b5afce.chunk.js": "/pom-beard/static/js/2.b8b5afce.chunk.js",
     "static/js/2.b8b5afce.chunk.js.map": "/pom-beard/static/js/2.b8b5afce.chunk.js.map",
     "index.html": "/pom-beard/index.html",
-    "precache-manifest.6c5ddb483a84404d669d72b3900a6c70.js": "/pom-beard/precache-manifest.6c5ddb483a84404d669d72b3900a6c70.js",
+    "precache-manifest.03033fc03129becb83243770e65d887d.js": "/pom-beard/precache-manifest.03033fc03129becb83243770e65d887d.js",
     "service-worker.js": "/pom-beard/service-worker.js",
-    "static/css/main.44120a7d.chunk.css.map": "/pom-beard/static/css/main.44120a7d.chunk.css.map",
+    "static/css/main.a2f272dc.chunk.css.map": "/pom-beard/static/css/main.a2f272dc.chunk.css.map",
     "static/js/2.b8b5afce.chunk.js.LICENSE": "/pom-beard/static/js/2.b8b5afce.chunk.js.LICENSE",
     "static/media/AI-generated-1.jpg": "/pom-beard/static/media/AI-generated-1.0ffd66ae.jpg",
     "static/media/AI-generated-2.jpg": "/pom-beard/static/media/AI-generated-2.3835f635.jpg",
@@ -23,7 +23,7 @@
     "static/media/blog-entry-3.jpg": "/pom-beard/static/media/blog-entry-3.0366246b.jpg",
     "static/media/business-description.png": "/pom-beard/static/media/business-description.1b4ee4c0.png",
     "static/media/chopped-tomatoes.jpg": "/pom-beard/static/media/chopped-tomatoes.5155a0f5.jpg",
-    "static/media/ProductStore.css": "/pom-beard/static/media/deal-background.766d9604.png",
+    "static/media/ProductStore.scss": "/pom-beard/static/media/deal-background.766d9604.png",
     "static/media/delivery-background.png": "/pom-beard/static/media/delivery-background.396faa62.png",
     "static/media/dried-apricot.jpg": "/pom-beard/static/media/dried-apricot.5c5877c5.jpg",
     "static/media/how.png": "/pom-beard/static/media/how.fe6067eb.png",
@@ -38,7 +38,7 @@
     "static/media/slider-background-3.png": "/pom-beard/static/media/slider-background-3.a07b4532.png",
     "static/media/subscription-bg.jpg": "/pom-beard/static/media/subscription-bg.c49b4aae.jpg",
     "static/media/sweet-corn.jpg": "/pom-beard/static/media/sweet-corn.11a922f7.jpg",
-    "static/media/SectionTitle.css": "/pom-beard/static/media/title-backdrop.aebcedc7.png",
+    "static/media/SectionTitle.scss": "/pom-beard/static/media/title-backdrop.aebcedc7.png",
     "static/media/vitamin-c-face-wash.jpg": "/pom-beard/static/media/vitamin-c-face-wash.4d9b0a59.jpg",
     "static/media/what.png": "/pom-beard/static/media/what.9f620f38.png",
     "static/media/who.png": "/pom-beard/static/media/who.a90268ce.png"
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.b630f30d.js",
     "static/js/2.b8b5afce.chunk.js",
-    "static/css/main.44120a7d.chunk.css",
-    "static/js/main.6d80e0b2.chunk.js"
+    "static/css/main.a2f272dc.chunk.css",
+    "static/js/main.8e969ab1.chunk.js"
   ]
 }
