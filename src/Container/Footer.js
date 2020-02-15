@@ -4,7 +4,7 @@ import StoreInsight from "../Component/Footer/StoreInsight";
 import MyAccount from "../Component/Footer/MyAccount";
 import Instagram from "../Component/Footer/Instagram";
 import Copyright from "../Component/Footer/Copyright";
-import "../Component/Footer/Footer.css";
+import "../Component/Footer/Footer.scss";
 
 const Footer = () => {
   return (

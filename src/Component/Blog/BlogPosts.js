@@ -1,5 +1,5 @@
 import React from "react";
-import "./BlogPosts.css";
+import "./BlogPosts.scss";
 import { truncate } from "../CommonUse/Utils";
 
 const BlogPosts = props => {

@@ -1,6 +1,6 @@
 import React from "react";
 import Testimonial from "../Component/Testimonial/Testinomial";
-import "../Component/Testimonial/Testinomial.css";
+import "../Component/Testimonial/Testinomial.scss";
 import TestimonialData from "../Component/Testimonial/TestinomialData";
 
 const Testimonials = () => {

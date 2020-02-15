@@ -21,7 +21,7 @@ const NavItem = props => {
             addDivider = "";
           }
           return (
-            <div className="sub-nav">
+            <div className="sub-nav" key={index}>
               <a className="dropdown-item" href="#">
                 {value}
               </a>

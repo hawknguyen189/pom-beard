@@ -1,5 +1,5 @@
 import React from "react";
-import "./FilterButton.css";
+import "./FilterButton.scss";
 import { StoreContext } from "./StoreContext";
 
 const FilterButton = props => {

@@ -1,6 +1,6 @@
 import React from "react";
 import deals from "./DealsData";
-import "./ProductStore.css";
+import "./ProductStore.scss";
 
 const Deals = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./DeliveryBackground.css";
+import "./DeliveryBackground.scss";
 import DeliveryProcess from "./DeliveryProcess";
 
 const DeliveryBackground = () => {
