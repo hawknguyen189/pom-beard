@@ -4,7 +4,7 @@ import "./ProductStore.scss";
 
 const Deals = () => {
   return (
-    <div className="container-fluid deal-background deal-of-the-day align-items-center justify-content-center">
+    <div id="dealSection" className="container-fluid deal-background deal-of-the-day align-items-center justify-content-center">
       <div className="container">
         <div className="row">
           <div className="product-display col-md-6 d-flex">

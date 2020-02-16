@@ -21,7 +21,7 @@ const FrontPageProducts = () => {
     });
   }
   return (
-    <div className="container mt-3">
+    <div id="storeSection" className="container mt-3">
       <div className="row product-shelf">
         {filteredProducts.map((product, index) => {
           const productLink = product.productName

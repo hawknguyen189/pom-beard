@@ -6,7 +6,7 @@ const NavItem = props => {
       {/*  eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         className="nav-link dropdown-toggle"
-        href="#"
+        href={props.path}
         id="navbarDropdown"
         role="button"
         data-toggle="dropdown"
