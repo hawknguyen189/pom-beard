@@ -1,11 +1,11 @@
 import React from "react";
-import Background from "./Background";
-import SlidingProducts from "./SlidingShowData";
+import Background from "../Component/MainBackground/Background";
+import SlidingProducts from "../Component/MainBackground/SlidingShowData";
 
 let className = "";
 const HeaderContent = () => {
   return (
-    <div id="header" className="header-sliding-show jumbotron p-0">
+    <div id="mainBackground" className="header-sliding-show jumbotron p-0">
       <div id="headerCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li

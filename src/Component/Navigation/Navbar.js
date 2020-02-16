@@ -70,7 +70,7 @@ const Navbar = () => {
               navMenu="Home"
               className=""
               navList={["Home 1", "Home 2", "Home 3"]}
-              path="#header"
+              path="#mainBackground"
             ></NavItem>
           </ul>
           <ul className="navbar-nav  mr-2 nav-pills">

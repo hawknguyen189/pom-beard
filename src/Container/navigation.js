@@ -1,9 +1,11 @@
 import React from "react";
-import Navbar from "../Component/Navigation/Navbar"
+import Navbar from "../Component/Navigation/Navbar";
 const Navigation = () => {
-    return (
-      <Navbar/>
-    )
-}
+  return (
+    <header id="header">
+      <Navbar />
+    </header>
+  );
+};
 
 export default Navigation;

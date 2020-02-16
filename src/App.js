@@ -3,7 +3,8 @@ import "../src/Component/CommonUse/FlixCarousel.css";
 // import logo from './logo.svg';
 import "./App.css";
 import "./Component/CommonUse/Utils.scss";
-import Header from "./Container/Header";
+// import Header from "./Container/Header";
+import MainBackground from "./Container/MainBackground";
 import Navigation from "./Container/Navigation";
 import Introduction from "./Container/Introduction";
 import ProductShow from "./Container/ProductShow";
@@ -15,7 +16,7 @@ import Footer from "./Container/Footer";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <MainBackground />
       <Navigation />
       <main>
         <Introduction />
@@ -24,8 +25,8 @@ function App() {
         <Testimonials />
         <Blog />
         <Subscription />
-        <Footer />
       </main>
+      <Footer />
     </div>
   );
 }
