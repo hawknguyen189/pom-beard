@@ -13,7 +13,6 @@ const Navbar = () => {
 
     $(window).on("load resize", function() {
       if (this.matchMedia("(min-width: 768px)").matches) {
-        console.log("inside useEffect");
         $dropdown.hover(
           function() {
             const $this = $(this);

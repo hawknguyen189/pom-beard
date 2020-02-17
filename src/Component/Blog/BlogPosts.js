@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogPosts.scss";
-import { truncate } from "../CommonUse/Utils";
+import { _truncate } from "../CommonUse/Utils";
 
 const BlogPosts = props => {
   return (
@@ -16,7 +16,7 @@ const BlogPosts = props => {
           <h4 className="blog-title">{props.blogdata.title}</h4>
         </a>
         <p className="blog-content">
-          {truncate.apply(props.blogdata.content, [48, true])}
+          {_truncate.apply(props.blogdata.content, [48, true])}
         </p>
         <a className="blog-more" href="#">/ READ MORE</a>
       </div>

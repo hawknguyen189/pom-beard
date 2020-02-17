@@ -32,10 +32,13 @@ li > a {
   font-size: 1.1em;
   color: $gray-text;
 }
+
+//working on mobile navbar
 #headerNavbarMobile {
+  // set navigation bar header fixed to top, can change to relative for a sticky top option
   .navigation-header {
     display: flex;
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 70px;
     background: #212121;
@@ -43,11 +46,13 @@ li > a {
     justify-content: center;
     align-items: center;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    // z-index: 1000;
+    top: 0;
+    left: 0;
+    // z-index: 1001;
   }
   .button {
     position: relative;
-    top:0;
+    // top:-100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +71,9 @@ li > a {
   }
 
   #nav-container {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
     pointer-events: none;
@@ -76,7 +83,7 @@ li > a {
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100% - 70px);
+    height: 100%;
     visibility: hidden;
     opacity: 0;
     transition: 0.3s;
@@ -85,9 +92,6 @@ li > a {
   #nav-container:focus-within .bg {
     visibility: visible;
     opacity: 0.6;
-  }
-  #nav-container * {
-    visibility: visible;
   }
 
   .icon-bar {
@@ -120,7 +124,7 @@ li > a {
     width: 90%;
     max-width: 300px;
     position: absolute;
-    top:-0;
+    top: -0;
     left: 0;
     height: calc(100% - 70px);
     background: #ececec;
@@ -156,35 +160,17 @@ li > a {
   #nav-container:focus-within #nav-content {
     transform: none;
   }
-  a,
-  a:visited,
-  a:focus,
-  a:active,
-  a:link {
-    text-decoration: none;
-    outline: 0;
-  }
-
-  a {
-    color: currentColor;
-    transition: 0.2s ease-in-out;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4 {
-    margin: 0;
-  }
-
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-
-  img {
-    vertical-align: middle;
-    height: auto;
-    width: 100%;
-  }
 }
+.navbar-mobile--top{
+    visibility: hidden;
+}
+.navbar-mobile--not-top{
+    visibility: visible;
+}
+// using debounce for grouping function
+// html:not([data-scroll="0"]) {
+//   #headerNavbarMobile {
+//     visibility: visible;
+//     transition: all 2s;
+//   }
+// }
