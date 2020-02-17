@@ -17,35 +17,3 @@
 a:hover {
   text-decoration: none;
 }
-.navbar {
-  li > a {
-    font-family: $font-alata;
-    color: $gray-text;
-  }
-  .nav-pills .show > .nav-link {
-    color: $main-green-text !important;
-    background-color: $light-gray-background;
-  }
-  .nav-pills .nav-link.active {
-    color: $main-green-text !important;
-    background-color: $light-gray-background;
-  }
-  .nav-item:not(:last-child) {
-    margin-right: 35px;
-    background-color: $light-gray-background;
-  }
-  .dropdown-menu {
-    margin-top: 0;
-  }
-  .dropdown-toggle::after {
-    transition: transform 0.15s linear;
-  }
-
-  .show.dropdown .dropdown-toggle::after {
-    transform: translateY(3px);
-  }
-}
-.nav-icon {
-  font-size: 1.1em;
-  color: $gray-text;
-}

@@ -5,7 +5,8 @@ import "./App.css";
 import "./Component/CommonUse/Utils.scss";
 // import Header from "./Container/Header";
 import MainBackground from "./Container/MainBackground";
-import Navigation from "./Container/Navigation";
+import Navbar from "./Component/Navigation/Navbar"
+import NavbarMobile from "./Component/Navigation/NavbarMobile";
 import Introduction from "./Container/Introduction";
 import ProductShow from "./Container/ProductShow";
 import Delivery from "./Container/Delivery";
@@ -17,7 +18,8 @@ function App() {
   return (
     <div className="App">
       <MainBackground />
-      <Navigation />
+      <Navbar />
+      <NavbarMobile />
       <main>
         <Introduction />
         <ProductShow />
