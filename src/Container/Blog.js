@@ -19,7 +19,7 @@ const Blog = () => {
         desc="-Keep updated with us-"
       ></SectionTitle>
       <div className="row">
-        <div className="col-sm main-blog pr-sm-5">
+        <div className="col-lg main-blog pr-sm-5">
           <BlogPosts
             blogdata={mainBlog[0]}
             className=""
@@ -27,14 +27,14 @@ const Blog = () => {
             imgClass="img-fluid rounded"
           ></BlogPosts>
         </div>
-        <div className="col-sm side-blog pl-sm-5">
+        <div className="col-lg side-blog pl-sm-5">
           {sideBlog.map((value, index) => {
             return (
               <BlogPosts
                 blogdata={value}
-                className="row mb-5"
+                className="row mb-5 align-items-center"
                 contentClass="col-sm"
-                imgClass="col-sm-6 rounded"
+                imgClass="col-sm-6 rounded side-blog-img"
                 key={index}
               ></BlogPosts>
             );

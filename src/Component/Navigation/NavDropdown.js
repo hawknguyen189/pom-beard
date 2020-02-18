@@ -1,6 +1,6 @@
 import React from "react";
 let addDivider = "dropdown-divider";
-const NavItem = props => {
+const NavDropdown = props => {
   return (
     <li className={`nav-item dropdown ${props.className}`}>
       {/*  eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -9,7 +9,6 @@ const NavItem = props => {
         href={props.path}
         id="navbarDropdown"
         role="button"
-        data-toggle="dropdown"
         aria-haspopup="true"
         aria-expanded="false"
       >
@@ -34,4 +33,4 @@ const NavItem = props => {
   );
 };
 
-export default NavItem;
+export default NavDropdown;

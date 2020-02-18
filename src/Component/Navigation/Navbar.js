@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import brandLogo from "../../media/pom-beard-logo.png";
-import NavItem from "../Navigation/NavItem";
+import NavDropdown from "./NavDropdown";
 import $ from "jquery";
 
 const Navbar = () => {
@@ -67,52 +67,52 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mr-2 nav-pills">
-                <NavItem
+                <NavDropdown
                   navMenu="Home"
                   className=""
                   navList={["Home 1", "Home 2", "Home 3"]}
                   path="#mainBackground"
-                ></NavItem>
+                ></NavDropdown>
               </ul>
               <ul className="navbar-nav  mr-2 nav-pills">
-                <NavItem
+                <NavDropdown
                   navMenu="Pages"
                   className=""
                   navList={["Pages 1", "Pages 2", "Pages 3"]}
                   path="#sectionIntroduction"
-                ></NavItem>
+                ></NavDropdown>
               </ul>
               <ul className="navbar-nav mr-2 nav-pills">
-                <NavItem
+                <NavDropdown
                   navMenu="Deals"
                   className=""
                   navList={["Deal 1", "Deal 2", "Deal 3"]}
                   path="#dealSection"
-                ></NavItem>
+                ></NavDropdown>
               </ul>
               <ul className="navbar-nav mr-2 nav-pills">
-                <NavItem
+                <NavDropdown
                   navMenu="Shop"
                   className=""
                   navList={["Shop 1", "Shop 2", "Shop 3"]}
                   path="#storeSection"
-                ></NavItem>
+                ></NavDropdown>
               </ul>
               <ul className="navbar-nav mr-2 nav-pills">
-                <NavItem
+                <NavDropdown
                   navMenu="Blog"
                   className=""
                   navList={["Blog 1", "Blog 2", "Blog 3"]}
                   path="#blogSection"
-                ></NavItem>
+                ></NavDropdown>
               </ul>
               <ul className="navbar-nav mr-2 nav-pills">
-                <NavItem
+                <NavDropdown
                   navMenu="Contact"
                   className=""
                   navList={["Contact 1", "Contact 2", "Contact 3"]}
                   path="#footer"
-                ></NavItem>
+                ></NavDropdown>
               </ul>
               {/* <form className="form-inline my-2 my-lg-0 mr-auto">
               <input

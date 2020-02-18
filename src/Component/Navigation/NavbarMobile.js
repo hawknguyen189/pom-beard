@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import brandLogo from "../../media/pom-beard-logo.png";
-import NavItem from "../Navigation/NavItem";
+import NavDropdown from "./NavDropdown";
 import { _debounce } from "../CommonUse/Utils";
 import "./Navigation.scss";
 
@@ -35,9 +35,16 @@ const NavbarMobile = () => {
       id="headerNavbarMobile"
       className="d-lg-none sticky-top navbar-mobile-header navbar-mobile--top"
     >
-      <div className="navbar-mobile row">
-        <div tabIndex="0" className="navigation-header">
-          Pom Beard
+      <div className="navbar-mobile container">
+        <div tabIndex="0" className="navigation-header row mx-0">
+          <div className="col-6 mobile-brand d-flex justify-content-end align-items-center">
+            <span className="nav-mobile-header">Pom Beard</span>
+          </div>
+          <div className="nav-mobile-icon col-6 d-flex align-items-center justify-content-end">
+            <i className="fas fa-user-circle nav-icon pr-4"></i>
+            <i className="far fa-heart nav-icon pr-4"></i>
+            <i className="fas fa-shopping-cart nav-icon pr-4"></i>
+          </div>
         </div>
         <div id="nav-container">
           <div className="bg"></div>
@@ -49,13 +56,13 @@ const NavbarMobile = () => {
           <div id="nav-content" tabIndex="0">
             <ul>
               <li>
-                <a href="#0">Home</a>
+                <a href="#mainBackground">Home</a>
               </li>
               <li>
                 <a href="#0">Services</a>
               </li>
               <li>
-                <a href="#0">Blog</a>
+                <a href="#blogSection">Blog</a>
               </li>
               <li>
                 <a href="#0">About</a>
@@ -69,7 +76,9 @@ const NavbarMobile = () => {
               </li>
             </ul>
           </div>
+          {/* nav contaienr div  */}
         </div>
+        {/* nav mobile div */}
       </div>
     </header>
   );

@@ -36,19 +36,24 @@ li > a {
 //working on mobile navbar
 #headerNavbarMobile {
   // set navigation bar header fixed to top, can change to relative for a sticky top option
+  //   z-index: 1020 !important;
+  * {
+    outline: none;
+  }
   .navigation-header {
-    display: flex;
+    .nav-mobile-header {
+        position: relative;
+        left:40px;
+    }
     position: fixed;
     width: 100%;
     height: 70px;
-    background: #212121;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
+    color: $main-green-text;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     top: 0;
     left: 0;
-    // z-index: 1001;
+    transition-property: background-color;
+    transition-duration: 3s;
   }
   .button {
     position: relative;
@@ -56,7 +61,6 @@ li > a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    z-index: 1;
     -webkit-appearance: none;
     border: 0;
     background: transparent;
@@ -69,7 +73,9 @@ li > a {
     touch-action: manipulation;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
-
+  .nav-mobile-icon {
+    color: $brown-text;
+  }
   #nav-container {
     position: fixed;
     top: 0;
@@ -99,7 +105,7 @@ li > a {
     width: 100%;
     height: 3px;
     background: #aaa;
-    transition: 0.3s;
+    transition: visibility 0s, transform 0.5s;
   }
   .icon-bar + .icon-bar {
     margin-top: 5px;
@@ -161,11 +167,17 @@ li > a {
     transform: none;
   }
 }
-.navbar-mobile--top{
-    visibility: hidden;
+.navbar-mobile--top {
+  visibility: hidden;
+  .navigation-header {
+    background-color: rgba(255, 255, 255, 0);
+  }
 }
-.navbar-mobile--not-top{
-    visibility: visible;
+.navbar-mobile--not-top {
+  visibility: visible;
+  .navigation-header {
+    background-color: $light-gray-background;
+  }
 }
 // using debounce for grouping function
 // html:not([data-scroll="0"]) {
