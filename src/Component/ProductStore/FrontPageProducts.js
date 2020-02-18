@@ -5,6 +5,7 @@ import { StoreContext } from "../CommonUse/StoreContext";
 const FrontPageProducts = () => {
   // eslint-disable-next-line no-unused-vars
   const [tag, setTag] = React.useContext(StoreContext);
+  // create filtered products array
   let filteredProducts;
   if (tag.includes("all")) {
     filteredProducts = [...products]; //copy products array

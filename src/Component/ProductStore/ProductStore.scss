@@ -43,8 +43,18 @@
 .product-shelf {
   .product-lot {
     :hover {
+      border-color: $main-green-text;
       .product-name {
         color: $main-green-text;
+      }
+      img {
+        transform: scale(0.9);
+        opacity: 0.25;
+      }
+    }
+    .product-thumb{
+      img{
+        transition: all 0.5s;
       }
     }
     .product-desc {

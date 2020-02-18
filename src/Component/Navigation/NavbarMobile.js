@@ -6,6 +6,7 @@ import "./Navigation.scss";
 
 const NavbarMobile = () => {
   useEffect(() => {
+    //have another choice  of using windowScroll hooks instead of this
     // Reads out the scroll position and stores it in the data attribute
     // so we can use it in our stylesheets
     const storeScroll = () => {
