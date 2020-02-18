@@ -56,6 +56,32 @@ const FrontPageProducts = () => {
                     <span>£</span>
                     {product.productPrice + ".00"}
                   </p>
+                  <div className="product-action row justify-content-around">
+                    <div className="quick-view col d-flex justify-content-center px-2">
+                      <a
+                        href=""
+                        className="rounded-circle d-flex justify-content-center"
+                      >
+                        <i className="far fa-eye align-self-center"></i>
+                      </a>
+                    </div>
+                    <div className="add-to-cart col d-flex justify-content-center px-2">
+                      <a
+                        href=""
+                        className="rounded-circle d-flex justify-content-center"
+                      >
+                        <i className="fas fa-shopping-cart align-self-center"></i>
+                      </a>
+                    </div>
+                    <div className="add-to-compare col d-flex justify-content-center px-2">
+                      <a
+                        href=""
+                        className="rounded-circle d-flex justify-content-center"
+                      >
+                        <i className="fas fa-balance-scale align-self-center"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
