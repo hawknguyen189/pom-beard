@@ -83,14 +83,18 @@
         top: -50%;
         left: 20%;
         // height:100%;
-        // width: auto;
+        width: 100%;
         // top: calc(height*0.5);
         a {
           width: 48px;
           height: 48px;
           background-color: $gray-text;
           color:snow;
-          opacity: 0.8;
+          opacity: 0.9;
+          font-size: 1em;
+        }
+        .add-to-cart>a{
+          background-color: $main-green-text;
         }
       }
     }
