@@ -60,7 +60,7 @@ const NavbarMobile = () => {
                 <a href="#mainBackground">Home</a>
               </li>
               <li>
-                <a href="#0">Services</a>
+                <a href="#0">Store</a>
               </li>
               <li>
                 <a href="#blogSection">Blog</a>
