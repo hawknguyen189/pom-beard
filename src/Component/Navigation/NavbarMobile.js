@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import brandLogo from "../../media/pom-beard-logo.png";
-import NavDropdown from "./NavDropdown";
+import NavMobileDropdown from "./NavMobileDropdown";
 import { _debounce } from "../CommonUse/Utils";
 import "./Navigation.scss";
 
@@ -56,24 +55,51 @@ const NavbarMobile = () => {
           </div>
           <div id="nav-content" tabIndex="0">
             <ul>
-              <li>
-                <a href="#mainBackground">Home</a>
-              </li>
-              <li>
-                <a href="#0">Store</a>
-              </li>
-              <li>
-                <a href="#blogSection">Blog</a>
-              </li>
-              <li>
-                <a href="#0">About</a>
-              </li>
-              <li>
-                <a href="#0">Contact</a>
-              </li>
+              <NavMobileDropdown
+                navMenu="Home"
+                className=""
+                navList={["Home 1", "Home 2", "Home 3"]}
+                path="#mainBackground"
+              ></NavMobileDropdown>
+
+              <NavMobileDropdown
+                navMenu="Pages"
+                className=""
+                navList={["Pages 1", "Pages 2", "Pages 3"]}
+                path="#sectionIntroduction"
+              ></NavMobileDropdown>
+
+              <NavMobileDropdown
+                navMenu="Deals"
+                className=""
+                navList={["Deal 1", "Deal 2", "Deal 3"]}
+                path="#dealSection"
+              ></NavMobileDropdown>
+
+              <NavMobileDropdown
+                navMenu="Shop"
+                className=""
+                navList={["Shop 1", "Shop 2", "Shop 3"]}
+                path="#storeSection"
+              ></NavMobileDropdown>
+
+              <NavMobileDropdown
+                navMenu="Blog"
+                className=""
+                navList={["Blog 1", "Blog 2", "Blog 3"]}
+                path="#blogSection"
+              ></NavMobileDropdown>
+
+              <NavMobileDropdown
+                navMenu="Contact"
+                className=""
+                navList={["Contact 1", "Contact 2", "Contact 3"]}
+                path="#footer"
+              ></NavMobileDropdown>
+
               <li className="small">
-                <a href="#0">Facebook</a>
-                <a href="#0">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.instagram.com/">Instagram</a>
               </li>
             </ul>
           </div>

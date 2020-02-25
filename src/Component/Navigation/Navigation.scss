@@ -13,9 +13,11 @@ li > a {
   color: $main-green-text !important;
   background-color: $light-gray-background;
 }
-.nav-item:not(:last-child) {
-  margin-right: 35px;
-  background-color: $light-gray-background;
+#navBar {
+  .nav-item:not(:last-child) {
+    margin-right: 35px;
+    background-color: $light-gray-background;
+  }
 }
 .dropdown-menu {
   margin-top: 0;
@@ -42,8 +44,8 @@ li > a {
   }
   .navigation-header {
     .nav-mobile-header {
-        position: relative;
-        left:40px;
+      position: relative;
+      left: 40px;
     }
     position: fixed;
     width: 100%;
@@ -140,12 +142,19 @@ li > a {
     transition: transform 0.3s;
     will-change: transform;
     contain: paint;
+    // .dropdown-menu{
+    //   position: relative !important;
+    //   top: -35px !important;
+    // }
   }
 
   #nav-content ul {
     height: 100%;
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
   #nav-content li a {
