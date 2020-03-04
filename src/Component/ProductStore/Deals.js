@@ -31,7 +31,7 @@ const Deals = () => {
             </h1>
             <h5 className="pb-4 deal-product-name">{deals[0].productName}</h5>
             <p className="pb-4">{deals[0].productDesc}</p>
-            <button className="btn btn-primary add-to-cart align-self-center">
+            <button className="btn btn-primary add-to-cart align-self-center mb-3">
               ADD TO CART
             </button>
           </div>
